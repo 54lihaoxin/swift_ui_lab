@@ -16,6 +16,9 @@
 		ACDB6A1522D27A5700A8C313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDB6A1322D27A5700A8C313 /* LaunchScreen.storyboard */; };
 		ACDB6A2022D27A5700A8C313 /* SwiftUILabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB6A1F22D27A5700A8C313 /* SwiftUILabTests.swift */; };
 		ACDB6A2B22D27A5700A8C313 /* SwiftUILabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB6A2A22D27A5700A8C313 /* SwiftUILabUITests.swift */; };
+		ACDB6A3922D2A51300A8C313 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB6A3822D2A51300A8C313 /* Room.swift */; };
+		ACDB6A3C22D2A64800A8C313 /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDB6A3B22D2A64800A8C313 /* Rooms.xcassets */; };
+		ACDB6A3E22D2A95E00A8C313 /* SFSymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB6A3D22D2A95D00A8C313 /* SFSymbolName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		ACDB6A2622D27A5700A8C313 /* SwiftUILabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDB6A2A22D27A5700A8C313 /* SwiftUILabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabUITests.swift; sourceTree = "<group>"; };
 		ACDB6A2C22D27A5700A8C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDB6A3822D2A51300A8C313 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		ACDB6A3B22D2A64800A8C313 /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
+		ACDB6A3D22D2A95D00A8C313 /* SFSymbolName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +107,10 @@
 		ACDB6A0422D27A5200A8C313 /* SwiftUILab */ = {
 			isa = PBXGroup;
 			children = (
+				ACDB6A3A22D2A51F00A8C313 /* WWDC_2019 */,
 				ACDB6A0522D27A5200A8C313 /* AppDelegate.swift */,
 				ACDB6A0722D27A5200A8C313 /* SceneDelegate.swift */,
-				ACDB6A0C22D27A5200A8C313 /* ContentView.swift */,
+				ACDB6A3D22D2A95D00A8C313 /* SFSymbolName.swift */,
 				ACDB6A0E22D27A5700A8C313 /* Assets.xcassets */,
 				ACDB6A1322D27A5700A8C313 /* LaunchScreen.storyboard */,
 				ACDB6A1622D27A5700A8C313 /* Info.plist */,
@@ -137,6 +144,16 @@
 				ACDB6A2C22D27A5700A8C313 /* Info.plist */,
 			);
 			path = SwiftUILabUITests;
+			sourceTree = "<group>";
+		};
+		ACDB6A3A22D2A51F00A8C313 /* WWDC_2019 */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB6A0C22D27A5200A8C313 /* ContentView.swift */,
+				ACDB6A3822D2A51300A8C313 /* Room.swift */,
+				ACDB6A3B22D2A64800A8C313 /* Rooms.xcassets */,
+			);
+			name = WWDC_2019;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +262,7 @@
 			files = (
 				ACDB6A1522D27A5700A8C313 /* LaunchScreen.storyboard in Resources */,
 				ACDB6A1222D27A5700A8C313 /* Preview Assets.xcassets in Resources */,
+				ACDB6A3C22D2A64800A8C313 /* Rooms.xcassets in Resources */,
 				ACDB6A0F22D27A5700A8C313 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +292,8 @@
 				ACDB6A0B22D27A5200A8C313 /* SwiftUILab.xcdatamodeld in Sources */,
 				ACDB6A0D22D27A5200A8C313 /* ContentView.swift in Sources */,
 				ACDB6A0822D27A5200A8C313 /* SceneDelegate.swift in Sources */,
+				ACDB6A3922D2A51300A8C313 /* Room.swift in Sources */,
+				ACDB6A3E22D2A95E00A8C313 /* SFSymbolName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
