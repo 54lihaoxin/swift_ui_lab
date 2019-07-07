@@ -11,15 +11,20 @@ import SwiftUI
 struct ContentView : View {
     var rooms: [Room] = []
     var body: some View {
-        List(rooms) { room in
-            Image(room.thumbnailName)
-                .cornerRadius(8)
-            VStack(alignment: .leading) {
-                Text(room.name)
-                Text("\(room.capacity) people")
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
+        NavigationView {
+            List(rooms) { room in
+                NavigationButton(destination: Text(room.name)) {
+                    Image(room.thumbnailName)
+                        .cornerRadius(8)
+                    VStack(alignment: .leading) {
+                        Text(room.name)
+                        Text("\(room.capacity) people")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                }
             }
+            .navigationBarTitle(Text("Rooms"))
         }
     }
 }
