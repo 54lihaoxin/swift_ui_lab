@@ -6,6 +6,12 @@
 //  Copyright © 2019 Haoxin Li. All rights reserved.
 //
 
+/*
+ This is a demo as shown in WWDC 2019 session 204,
+ Introducing SwiftUI: Building Your First App:
+ https://developer.apple.com/videos/play/wwdc2019/204/
+*/
+
 import SwiftUI
 
 struct ContentView : View {
